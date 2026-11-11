@@ -5,3 +5,6 @@
 
 /* Artist portrait editorial gallery */
 .artist-gallery{padding-top:clamp(60px,8vw,120px);padding-bottom:clamp(70px,9vw,140px)}.portrait-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:clamp(14px,2.5vw,32px);align-items:start}.portrait-item{margin:0;min-width:0}.portrait-item:first-child{grid-row:span 2}.portrait-item img{width:100%;height:auto;display:block;object-fit:cover;background:#e7e5df}.portrait-item figcaption{display:flex;justify-content:space-between;gap:12px;margin-top:13px;font-size:10px;letter-spacing:.12em;text-transform:uppercase}.portrait-item figcaption span{color:#777}@media(max-width:760px){.portrait-grid{grid-template-columns:1fr}.portrait-item:first-child{grid-row:auto}.portrait-item figcaption{font-size:9px}}
+
+/* Restrained ANATOMY advertising placement */
+.editorial-ad[hidden]{display:none!important}.editorial-ad{width:100%;margin:60px 0;padding:23px 0 28px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);min-width:0}.editorial-ad-label{display:block;text-align:center;font:500 9px/1.5 'DM Sans',sans-serif;letter-spacing:.2em;color:#99968f;margin-bottom:20px}.editorial-ad ins.adsbygoogle{display:block;min-width:0;max-width:100%}@media(max-width:760px){.editorial-ad{margin:45px 0;padding:18px 0 22px}}
