@@ -8,3 +8,6 @@
 
 /* Restrained ANATOMY advertising placement */
 .editorial-ad[hidden]{display:none!important}.editorial-ad{width:100%;margin:60px 0;padding:23px 0 28px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);min-width:0}.editorial-ad-label{display:block;text-align:center;font:500 9px/1.5 'DM Sans',sans-serif;letter-spacing:.2em;color:#99968f;margin-bottom:20px}.editorial-ad ins.adsbygoogle{display:block;min-width:0;max-width:100%}@media(max-width:760px){.editorial-ad{margin:45px 0;padding:18px 0 22px}}
+
+/* ANATOMY: display ad spacing tuned for editorial reading on mobile and desktop. */
+.article>.editorial-ad:first-of-type{margin-top:55px;margin-bottom:67px}.section>.section-head+.editorial-ad{max-width:900px;margin:0 auto 54px}.editorial-ad{box-sizing:border-box}@media(max-width:760px){.article>.editorial-ad:first-of-type{margin-top:42px;margin-bottom:48px}.section>.section-head+.editorial-ad{margin-bottom:36px}}
