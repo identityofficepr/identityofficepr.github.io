@@ -7,9 +7,7 @@
   const form=document.getElementById('cover-access-form');
   const input=document.getElementById('cover-access-password');
   const error=document.getElementById('cover-access-error');
-  const key='anatomy-issue-004-access';
-  function unlock(){gate.hidden=true;story.hidden=false;sessionStorage.setItem(key,'yes');}
-  try{if(sessionStorage.getItem(key)==='yes')unlock();}catch(e){}
+  function unlock(){gate.hidden=true;story.hidden=false;}
   form.addEventListener('submit',function(e){
     e.preventDefault();
     if(input.value==='MAINPOPBOY01'){unlock();window.scrollTo({top:0,behavior:'instant'});}
