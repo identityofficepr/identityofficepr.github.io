@@ -145,3 +145,23 @@ body.afteriimage-article .profile-article .profile-masthead h1{max-width:1100px}
 .ai-editorial-principles h2{font:400 clamp(36px,5vw,58px)/1.13 Georgia,serif;letter-spacing:-.05em}
 .ai-editorial-principles p{font:17px/1.8 Georgia,serif;max-width:780px}
 .ai-editorial-principles a{text-decoration:underline;text-underline-offset:3px}
+
+/* AFTERIIMAGE / THE LOVE & CULTURE ISSUE — NOVEMBER 2026 */
+.ai-love-hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:0;margin-top:42px;border-top:1px solid #231b20;border-bottom:1px solid #231b20}
+.ai-love-panel{background:#f0cbd7;color:#281823;min-height:570px;padding:clamp(26px,4.5vw,65px);display:flex;flex-direction:column;justify-content:space-between}
+.ai-love-large{font:400 clamp(62px,8.2vw,139px)/.91 Georgia,serif;letter-spacing:-.09em;margin:60px 0;max-width:100%;overflow-wrap:break-word}
+.ai-love-large em{font-style:italic;letter-spacing:-.07em;font-size:.68em}
+.ai-love-copy{background:#2b1927;color:#f6e7ee;padding:clamp(28px,5vw,76px);display:flex;flex-direction:column;justify-content:center}
+.ai-love-copy h1{font:400 clamp(38px,4.7vw,68px)/1.07 Georgia,serif;letter-spacing:-.065em;margin:26px 0}
+.ai-love-copy>p:not(.eyebrow){font:19px/1.66 Georgia,serif;max-width:570px;color:#e8d8e0}
+.ai-love-copy .story-read{margin:25px 0;color:#f0cbd7}
+.ai-love-secondary{border-top:1px solid #7a6572;margin-top:42px;padding-top:24px;display:flex;flex-wrap:wrap;gap:22px}
+.ai-love-secondary a{font:700 11px Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;text-decoration:underline}
+.ai-love-grid{grid-template-columns:repeat(3,minmax(0,1fr));padding-bottom:65px}
+.ai-love-grid .story-card{border-top:1px solid #82717c}
+.ai-love-grid .feature:nth-child(1){grid-column:span 2;padding-right:40px}
+.ai-love-grid .feature:nth-child(1) h3{font-size:clamp(34px,4.4vw,60px);max-width:850px}
+.ai-love-dept h1{font-size:clamp(62px,10vw,144px);overflow-wrap:anywhere}
+.ai-love-dept h1 span{color:#b78098}
+.ai-departments{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:760px){.ai-love-hero{grid-template-columns:1fr;margin-top:20px}.ai-love-panel{min-height:390px;padding:29px}.ai-love-large{font-size:clamp(58px,14vw,93px);margin:36px 0}.ai-love-copy{padding:35px 27px 40px}.ai-love-copy h1{font-size:clamp(36px,10vw,56px)}.ai-love-copy>p:not(.eyebrow){font-size:16px}.ai-love-grid{grid-template-columns:1fr;padding-bottom:28px}.ai-love-grid .feature:nth-child(1){grid-column:auto;padding-right:0}.ai-love-grid .feature:nth-child(1) h3{font-size:35px}.ai-departments{grid-template-columns:1fr}.ai-love-dept h1{font-size:clamp(55px,15vw,80px)}}
