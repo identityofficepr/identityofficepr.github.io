@@ -192,3 +192,8 @@ body.afteriimage-article .article .original-feature-image{max-width:850px;margin
 body.afteriimage-article .article .original-feature-image img{display:block;width:100%;max-height:1000px;object-fit:contain}
 body.afteriimage-article .article .original-feature-image figcaption{font:10px/1.5 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#79726e;padding:14px 0}
 @media(max-width:760px){body.afteriimage-article .article .story-feature-image,body.afteriimage-article .article .original-feature-image{margin:25px auto 40px}}
+
+/* Exclusive preview image: visible in front of the existing gated text */
+body.afteriimage-article .cover-access .gate-feature-image{width:min(100%,560px);margin:32px auto 48px}
+body.afteriimage-article .cover-access .gate-feature-image img{display:block;max-width:100%;width:100%;max-height:520px;object-fit:cover;object-position:center 35%}
+body.afteriimage-article .cover-access .gate-feature-image figcaption{font:10px/1.5 Arial,sans-serif;letter-spacing:.13em;text-transform:uppercase;padding:12px 0;color:#79726e}
