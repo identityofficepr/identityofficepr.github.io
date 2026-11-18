@@ -197,3 +197,13 @@ body.afteriimage-article .article .original-feature-image figcaption{font:10px/1
 body.afteriimage-article .cover-access .gate-feature-image{width:min(100%,560px);margin:32px auto 48px}
 body.afteriimage-article .cover-access .gate-feature-image img{display:block;max-width:100%;width:100%;max-height:520px;object-fit:cover;object-position:center 35%}
 body.afteriimage-article .cover-access .gate-feature-image figcaption{font:10px/1.5 Arial,sans-serif;letter-spacing:.13em;text-transform:uppercase;padding:12px 0;color:#79726e}
+
+/* Preserve entire feature art without cropping and add photographic cover masthead */
+.ai-love-art{aspect-ratio:3/4;min-height:0}
+.ai-love-art img{width:100%;height:auto;object-fit:contain}
+.sean-archive-cover{position:relative;isolation:isolate}
+.sean-archive-cover:after{content:"";position:absolute;left:0;right:0;bottom:0;height:48%;background:linear-gradient(transparent,rgba(0,0,0,.84));pointer-events:none}
+.sean-archive-overlay{position:absolute;z-index:2;bottom:0;left:0;right:0;padding:clamp(12px,1.8vw,26px);color:white;display:flex;flex-direction:column;gap:10px;pointer-events:none}
+.sean-archive-overlay small{font:600 clamp(7px,.9vw,11px)/1.4 Arial,sans-serif;letter-spacing:.14em}
+.sean-archive-overlay strong{font:400 clamp(18px,2.1vw,35px)/1.05 Georgia,serif;letter-spacing:-.05em}
+@media(max-width:760px){.sean-archive-overlay{padding:10px;gap:5px}.sean-archive-overlay strong{font-size:17px}.sean-archive-overlay small{font-size:7px}}
