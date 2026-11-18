@@ -139,3 +139,9 @@ body.afteriimage-article .profile-article .profile-masthead h1{max-width:1100px}
 .story-next span{font:700 10px Arial,sans-serif;letter-spacing:.14em}
 .story-next strong{font:400 clamp(27px,4vw,47px)/1.2 Georgia,serif;letter-spacing:-.04em}
 @media(max-width:760px){.ai-news-lead .type-visual{min-height:360px;padding:27px}.visual-title{font-size:clamp(48px,12vw,70px)}.visual-number{font-size:110px}.ai-dept-intro{padding-top:46px}.ai-dept-intro h1{font-size:clamp(62px,19vw,110px)}.ai-dept-description{grid-template-columns:1fr;gap:0;margin-top:28px}.ai-dept-description p{font-size:16px}.ai-dept-grid{grid-template-columns:1fr}.ai-bottom-cta{margin-top:20px;padding:38px 0}.story-article .story-meta{font-size:10px;margin-bottom:42px}.story-article h2{font-size:32px}.story-article .story-sources{margin-top:40px}}
+
+/* Publication governance / corrected editorial standard section */
+.ai-editorial-principles{margin:45px auto 90px;padding:40px clamp(20px,5vw,65px);border-top:1px solid #151515;border-bottom:1px solid #c9c7c0;max-width:1180px}
+.ai-editorial-principles h2{font:400 clamp(36px,5vw,58px)/1.13 Georgia,serif;letter-spacing:-.05em}
+.ai-editorial-principles p{font:17px/1.8 Georgia,serif;max-width:780px}
+.ai-editorial-principles a{text-decoration:underline;text-underline-offset:3px}
