@@ -17,3 +17,9 @@
 
 /* Force text-style arrow symbols on mobile rather than emoji glyphs. */
 @media(max-width:760px){.directional::after{content:"→";font-family:Arial,Helvetica,sans-serif;font-variant-emoji:text;font-weight:400}}
+
+/* Original Anatomy archive cover thumbnails */
+.editorial .office-anatomy-image{display:block;width:100px;min-width:100px;align-self:center}
+.editorial .office-anatomy-image img{width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;display:block}
+.editorial:has(.office-anatomy-image){grid-template-columns:45px 104px 1fr 130px 30px}
+@media(max-width:760px){.editorial:has(.office-anatomy-image){grid-template-columns:28px 75px 1fr 20px;gap:12px}.editorial .office-anatomy-image{width:75px;min-width:75px}.editorial:has(.office-anatomy-image) .type{display:none}.editorial:has(.office-anatomy-image) h3{font-size:clamp(20px,5.5vw,35px);overflow-wrap:break-word}.editorial:has(.office-anatomy-image)>span:last-child{grid-column:auto}}
